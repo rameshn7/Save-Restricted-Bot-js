@@ -18,7 +18,7 @@ fs.readFile(path.join(__dirname, 'config.json'), 'utf8', (err, data) => {
 const bot = new Telegraf(config.TOKEN);
 
 let acc = null;
-if (config.STRING)) {
+if (config.STRING) {
     try {
         acc = new Client({
             apiId: config.ID,
