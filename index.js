@@ -18,7 +18,7 @@ fs.readFile(path.join(__dirname, 'config.json'), 'utf8', (err, data) => {
 const bot = new Telegraf(config.TOKEN);
 
 let acc = null;
-if (BQE3qm8Aa3xJzS1yzxyFJtYNyANk_fPCyywtv6FG96YBIkvvLJy8MVgpOMYBU1Vs2rvQ-nDzJGbHw1KMRpsBe8jUqGiuMfgpAxbx7bUYEBVt-m3gZoArBtrb-0ljj5XTC-L8lgz9dG5RIHsyjWvk6L6GBKgVjNuEZJe1c9RDHDaeAkJK8R0QF-K6ozuTz6RFBJK4VQFRqRaxlzacZEBsPAohqBoahcyN41yLxrVbu5ZLARQoYr260vSRaa8OYW4ldnHsvwvDQQbTKtELsPQHub57nhLlOEfZigxc9bommC9FOu77bgX9QPH63GRn9r_M7hYElW3GhrdAgfyqUtguBX9JG6-w_gAAAAGZMfZ_AA) {
+if (config.STRING)) {
     try {
         acc = new Client({
             apiId: config.ID,
